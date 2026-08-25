@@ -13,7 +13,7 @@ Step-by-step daily routine with screenshots: [docs/PredictEX-Rewards-Operator-Gu
 ## Workflow
 
 1. A user completes a challenge and clicks **Claim reward** → a row lands in the claims Google Sheet.
-2. Verify and pay the USDC reward on Base (rewards are promised within 24 hours of claiming).
+2. Verify and pay the USDC reward on Base (rewards are promised within 48 hours of claiming).
 3. Add the address under the right challenge in `payouts.json` and commit.
 
 ## Format
