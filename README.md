@@ -6,6 +6,10 @@ challenge as **Reward received** in the account modal's "Your Rewards" hub.
 
 No backend, no deploy: edit the file, commit to `main`, and the app picks it up within ~5 minutes.
 
+## Operator guide
+
+Step-by-step daily routine with screenshots: [docs/PredictEX-Rewards-Operator-Guide.pdf](docs/PredictEX-Rewards-Operator-Guide.pdf).
+
 ## Workflow
 
 1. A user completes a challenge and clicks **Claim reward** → a row lands in the claims Google Sheet.
