@@ -2,7 +2,11 @@
   "version": 1,
   "updatedAt": "2026-08-25",
   "challenges": {
-    "kyc-deposit": {},
-    "volume-700": {}
+    "kyc-deposit": {
+      "0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "https://basescan.org/tx/0x2d07a398029241d4ec57b1f1b64a0d69433f5559eadf6cc4c4a15660ccbdba04", "paidAt": "2026-08-26" }
+    },
+    "volume-700": {
+      "0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "https://basescan.org/tx/0x2d07a398029241d4ec57b1f1b64a0d69433f5559eadf6cc4c4a15660ccbdba04", "paidAt": "2026-08-26" }
+    }
   }
 }
