@@ -29,8 +29,8 @@ for (const [id, entries] of Object.entries(data.challenges ?? {})) {
     if (seen.has(lower)) errors.push(`"${address}" appears twice in "${id}" (same address, different casing)`);
     seen.add(lower);
     if (record && typeof record === 'object') {
-      if (record.txHash !== undefined && !/^0x[0-9a-fA-F]{64}$/.test(record.txHash))
-        errors.push(`"${address}" in "${id}": txHash must be a 0x… 64-hex transaction hash`);
+      if (record.txHash !== undefined && !/^(0x[0-9a-fA-F]{64}|https:\/\/\S+)$/.test(record.txHash))
+        errors.push(`"${address}" in "${id}": txHash must be a 0x… transaction hash or a full https:// explorer link`);
       if (record.paidAt !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(record.paidAt))
         errors.push(`"${address}" in "${id}": paidAt must be YYYY-MM-DD`);
     } else {
