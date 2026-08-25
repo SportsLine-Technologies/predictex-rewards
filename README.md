@@ -20,7 +20,7 @@ No backend, no deploy: edit the file, commit to `main`, and the app picks it up 
   "updatedAt": "2026-08-27",
   "challenges": {
     "kyc-deposit": {
-      "0x1111111111111111111111111111111111111111": { "txHash": "0xaaaa…", "paidAt": "2026-08-26" },
+      "0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "0xaaaa…", "paidAt": "2026-08-26" },
       "0x2222222222222222222222222222222222222222": { "txHash": "0xbbbb…", "paidAt": "2026-08-27" }
     },
     "volume-700": {
@@ -31,7 +31,7 @@ No backend, no deploy: edit the file, commit to `main`, and the app picks it up 
 ```
 
 - Challenge ids: `kyc-deposit` ($5 — Level 1 KYC + $50 in account, new users only) and `volume-700` ($25 — $700 volume in 7 days).
-- Addresses **must be lowercase** `0x…` (40 hex chars). The frontend lowercases before lookup, and the validator enforces it here.
+- Addresses are `0x…` (40 hex chars) in **any casing** — paste them as copied (checksummed is fine). The app lowercases before lookup; the validator only rejects malformed ones or the same address listed twice under one challenge.
 - `txHash` (optional) is shown to the user as a "View transaction" link on Basescan. `paidAt` (optional) is `YYYY-MM-DD`.
 - Entries are separated by commas; the last entry in a block has none. The same address can appear under both challenges.
 - Keep `updatedAt` current — it's a quick way to see when the file was last touched.

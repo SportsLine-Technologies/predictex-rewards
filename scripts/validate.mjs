@@ -21,8 +21,13 @@ for (const [id, entries] of Object.entries(data.challenges ?? {})) {
     errors.push(`challenge "${id}" must be an object keyed by address`);
     continue;
   }
+  const seen = new Set();
   for (const [address, record] of Object.entries(entries)) {
-    if (!/^0x[0-9a-f]{40}$/.test(address)) errors.push(`"${address}" in "${id}" is not a lowercase 0x address`);
+    // Any casing is fine (the app lowercases before lookup); only the shape is enforced.
+    if (!/^0x[0-9a-fA-F]{40}$/.test(address)) errors.push(`"${address}" in "${id}" is not a 0x address (40 hex chars)`);
+    const lower = address.toLowerCase();
+    if (seen.has(lower)) errors.push(`"${address}" appears twice in "${id}" (same address, different casing)`);
+    seen.add(lower);
     if (record && typeof record === 'object') {
       if (record.txHash !== undefined && !/^0x[0-9a-fA-F]{64}$/.test(record.txHash))
         errors.push(`"${address}" in "${id}": txHash must be a 0x… 64-hex transaction hash`);
