@@ -20,6 +20,10 @@
       "0xa6ed96b27cef4d88fbed40d8fd620e9a799898ea": {
         "txHash": "https://basescan.org/tx/0x0e1f5961bd97ceddad2658db38626cf590dc2949171365918075edd5c7ad4801",
         "paidAt": "2026-08-27"
+      },
+      "0x975a8e405d12409667a08ad3b9087b0c12686ecf": {
+        "txHash": "https://basescan.org/tx/0xcf5d4c6ef253816ce434657dbd97e371c0e4ed06cf353d138206c966bd5c534b",
+        "paidAt": "2026-08-27"
       }
     }
   }
