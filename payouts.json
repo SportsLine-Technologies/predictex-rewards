@@ -14,6 +14,22 @@
       "0x59fe4f6002f078b649e8e9208168f3c62a848aed": {
         "txHash": "https://basescan.org/tx/0x772b9611a519a489a0b63bcd65929c4634cb244d9b7e72be1da3c9e2cb1d261b",
         "paidAt": "2026-08-28"
+      },
+      "0xdd5f2d2b767802435eb45a44bee262e802d837f8": {
+        "txHash": "https://basescan.org/tx/0x61bcc671485519b235ab3bd856b03d9d5727d07146255e537c148b6340717931",
+        "paidAt": "2026-08-28"
+      },
+      "0xab1699ca388314678ccae521ae224825eed12a98": {
+        "txHash": "https://basescan.org/tx/0x3549a575a83572bf434d06f345b566a8cb2204cdca2fc11255bca9ecadd7c563",
+        "paidAt": "2026-08-28"
+      },
+      "0x5974bd9e3516703f8df67b48506117ce91668aee": {
+        "txHash": "https://basescan.org/tx/0x4b86078b5113090948547255a1d94cbcd7f4a1025d6e4168d51cbb6f055d2bf7",
+        "paidAt": "2026-08-28"
+      },
+      "0x65861889238a24735d3acb188bb02bb95f668c49": {
+        "txHash": "https://basescan.org/tx/0x7505beced78740722c02c3394ab24a56592df7e887c570554fcffa07d952c840",
+        "paidAt": "2026-08-28"
       }
     },
     "volume-700": {
@@ -79,6 +95,22 @@
       },
       "0x7ce2eb877a703bed48ffc9e48aef4118dfebc089": {
         "txHash": "https://basescan.org/tx/0x712532ff70f63bc8076538a10389f4879f336c47075840e75bc900802081ee68",
+        "paidAt": "2026-08-28"
+      },
+      "0xdd5f2d2b767802435eb45a44bee262e802d837f8": {
+        "txHash": "https://basescan.org/tx/0x6c1cde00eb5168ded31a49d0e1b8b77dadac38a20aba1ce697e2bc74f5d9c970",
+        "paidAt": "2026-08-28"
+      },
+      "0xab1699ca388314678ccae521ae224825eed12a98": {
+        "txHash": "https://basescan.org/tx/0xac6cea8f189b1b66e1e7fc50fa5196e365eb934df795ddbec17ffc08eeaee89a",
+        "paidAt": "2026-08-28"
+      },
+      "0xa46d59580b472d1e83c320efc856908e9977bb17": {
+        "txHash": "https://basescan.org/tx/0xa905878834d888d6e0c51fd5d1f93673700fd269ba3343cb9fa23fe642785e48",
+        "paidAt": "2026-08-28"
+      },
+      "0x2c46274b48df830935c059b518a544fc80fb4b5e": {
+        "txHash": "https://basescan.org/tx/0x5e224bb8a51bc1614027b4255f561b502724be4be2f9123157dd7b2ca5db8f4e",
         "paidAt": "2026-08-28"
       }
     }
