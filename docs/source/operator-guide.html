@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>PredictEX Reward Challenges — Operator Guide</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; color: #14171f; font-size: 11pt; line-height: 1.45; margin: 0; }
+  h1 { font-size: 24pt; margin: 0 0 4px; }
+  .sub { color: #5b6270; margin: 0 0 22px; font-size: 11pt; }
+  h2 { font-size: 16pt; margin: 26px 0 8px; padding-bottom: 4px; border-bottom: 2px solid #1e72ef; page-break-after: avoid; }
+  p, li { margin: 0 0 6px; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9.5pt; background: #f1f3f7; padding: 1px 4px; border-radius: 3px; }
+  pre { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 8.5pt; background: #f1f3f7; padding: 10px 12px; border-radius: 6px; white-space: pre; overflow: hidden; }
+  a { color: #1e72ef; word-break: break-all; }
+  .box { border: 1px solid #d9dee8; border-radius: 8px; padding: 10px 14px; margin: 10px 0; background: #fafbfd; page-break-inside: avoid; }
+  .ok { border-color: #22a06b; background: #eefaf3; }
+  .links td { padding: 4px 8px 4px 0; vertical-align: top; }
+  .links td:first-child { white-space: nowrap; font-weight: 600; }
+  .shots { display: flex; gap: 12px; margin: 8px 0 14px; page-break-inside: avoid; }
+  .shot { flex: 1; text-align: center; font-size: 9pt; color: #5b6270; }
+  .shot img { width: 100%; border: 1px solid #d9dee8; border-radius: 8px; }
+  .shot.wide img { width: 100%; }
+  .shots.trio .shot { flex: 0 0 32%; }
+  .shots.trio .shot img { width: 100%; }
+  .step { display: flex; gap: 12px; margin: 10px 0; page-break-inside: avoid; }
+  .num { flex: 0 0 28px; height: 28px; border-radius: 50%; background: #1e72ef; color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .step > div:last-child { flex: 1; }
+  table.rules { border-collapse: collapse; width: 100%; margin: 6px 0 10px; font-size: 10pt; }
+  table.rules th, table.rules td { border: 1px solid #d9dee8; padding: 6px 8px; text-align: left; vertical-align: top; }
+  table.rules th { background: #f1f3f7; }
+  .pb { page-break-before: always; }
+  .small { font-size: 9.5pt; color: #5b6270; }
+</style>
+</head>
+<body>
+
+<h1>PredictEX Reward Challenges — Operator Guide</h1>
+<p class="sub">Daily routine for paying the welcome-bonus rewards, plus an overview of what users see. Version 2 · 31 Aug 2026</p>
+
+<div class="box">
+  <table class="links">
+    <tr><td>Claims sheet</td><td><a href="https://docs.google.com/spreadsheets/d/1qK1OAPsJNgWPWiZbm9gEheBCTU7jkhSnr6BrWaSTbZk/edit?gid=0#gid=0">https://docs.google.com/spreadsheets/d/1qK1OAPsJNgWPWiZbm9gEheBCTU7jkhSnr6BrWaSTbZk/edit</a><br><span class="small">Every "Claim reward" click adds a row here.</span></td></tr>
+    <tr><td>Payouts file (edit)</td><td><a href="https://github.com/SportsLine-Technologies/predictex-rewards/edit/main/payouts.json">https://github.com/SportsLine-Technologies/predictex-rewards/edit/main/payouts.json</a><br><span class="small">Add an address here after paying — this is what turns the user's card green.</span></td></tr>
+    <tr><td>Repo &amp; format docs</td><td><a href="https://github.com/SportsLine-Technologies/predictex-rewards">https://github.com/SportsLine-Technologies/predictex-rewards</a></td></tr>
+    <tr><td>Basescan (tx lookup)</td><td><a href="https://basescan.org">https://basescan.org</a></td></tr>
+  </table>
+</div>
+
+<h2>1. The two challenges</h2>
+<table class="rules">
+  <tr><th>Challenge</th><th>Reward</th><th>User must…</th><th>Who is eligible</th></tr>
+  <tr><td><b>Verify &amp; deposit</b><br><code>kyc-deposit</code></td><td><b>$5</b> USDC</td><td>Complete Level 2 verification <b>and</b> have at least $50 in the betting account</td><td><b>New users only</b> — accounts created on/after <b>24 Aug 2026</b></td></tr>
+  <tr><td><b>Trading activity</b><br><code>volume-700</code></td><td><b>$25</b> USDC</td><td>Trade 8,000 contracts within any 7-day window (every trade counts — opens and closes; the contract count is what Trade History shows)</td><td>All wallets</td></tr>
+</table>
+<p>Rewards are paid manually in <b>USDC on Base</b> to the user's wallet address. The app promises payment <b>within 48 hours of claiming</b>.</p>
+
+<h2>2. What the user sees</h2>
+<div class="shots">
+  <div class="shot wide"><img src="img/01-banner.png" alt="Start banner"><br>The home-page banner advertises the challenges. "Get started" opens sign-up / deposit.</div>
+</div>
+<p>Users open the <b>Account</b> button (top right) — the "Your Rewards" section shows one swipeable card per challenge. The cards move through these states:</p>
+<div class="shots trio">
+  <div class="shot"><img src="img/02-in-progress.png" alt="In progress"><br><b>1 · In progress</b> — live progress and a call to action ("Place a bet", "Deposit", "Verify now").</div>
+  <div class="shot"><img src="img/03-claim.png" alt="Claim reward"><br><b>2 · Completed</b> — "Completed" turns green and a <b>Claim reward</b> button appears. Clicking it adds a row to the claims sheet.</div>
+  <div class="shot"><img src="img/04-claimed.png" alt="Claimed"><br><b>3 · Claimed</b> — "Claimed — paid within 48 hours". The user now waits for you.</div>
+</div>
+<div class="shots trio">
+  <div class="shot"><img src="img/05-paid.png" alt="Paid"><br><b>4 · Paid</b> — after you add the address to <code>payouts.json</code>: "Reward received ✓" with a "View transaction" link; the chip shows $30 / $30.</div>
+  <div class="shot"><img src="img/06-not-eligible.png" alt="Not eligible"><br><b>Not eligible</b> — accounts created before 24 Aug 2026 see the $5 card greyed out with a note. The $25 card is open to everyone.</div>
+  <div class="shot"></div>
+</div>
+
+<h2 class="pb">3. Daily routine (do this once a day)</h2>
+
+<div class="step"><div class="num">1</div><div>
+  <b>Open the claims sheet</b> — <a href="https://docs.google.com/spreadsheets/d/1qK1OAPsJNgWPWiZbm9gEheBCTU7jkhSnr6BrWaSTbZk/edit?gid=0#gid=0">claims sheet</a><br>
+  Each row is one claim: <code>Received At | Address | Challenge | Claimed At</code>. Work through the rows that are not yet marked as paid (add a column <b>E "Paid"</b> and put the date there when done).
+</div></div>
+
+<div class="step"><div class="num">2</div><div>
+  <b>Pay</b> — send <b>$5</b> (kyc-deposit) or <b>$25</b> (volume-700) in <b>USDC on Base</b> to the address in column B. Copy the transaction hash / Basescan link.
+</div></div>
+
+<div class="step"><div class="num">3</div><div>
+  <b>Record the payout in GitHub</b> — open <a href="https://github.com/SportsLine-Technologies/predictex-rewards/edit/main/payouts.json">payouts.json (edit)</a> and add one line under the matching challenge:
+<pre>"0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "https://basescan.org/tx/0x…", "paidAt": "2026-08-31" }</pre>
+  <div class="shots" style="margin:8px 0"><div class="shot wide"><img src="img/07-github-edit.jpg" alt="GitHub edit page"><br>The GitHub editor for payouts.json — add the line, then "Commit changes…" (top right).</div></div>
+  Rules: paste the address as copied (any casing); separate entries with commas — <b>no comma after the last entry</b> in a block; <code>txHash</code> can be the bare hash or the full Basescan link; update <code>updatedAt</code> at the top. Then click <b>Commit changes…</b> → <b>Commit directly to the <code>main</code> branch</b> → Commit.
+</div></div>
+
+<div class="step"><div class="num">4</div><div>
+  <b>Check the green tick</b> — on the repo page, the commit gets a ✔ within a minute if the file is valid. A ✘ means a typo (usually a missing/extra comma or quote): open the file again, fix, commit again. The app ignores an invalid file, so nobody goes green until it's fixed.
+</div></div>
+
+<div class="step"><div class="num">5</div><div>
+  <b>Mark the sheet row as paid</b> (date in column E). Done — the user's card turns green automatically within ~5–10 minutes (the file is cached for 5 minutes; the app re-reads it when the account modal opens).
+</div></div>
+
+<div class="box ok"><b>Full example of a valid <code>payouts.json</code></b>
+<pre>{
+  "version": 1,
+  "updatedAt": "2026-08-31",
+  "challenges": {
+    "kyc-deposit": {
+      "0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "0xaaaa…", "paidAt": "2026-08-26" },
+      "0x2222222222222222222222222222222222222222": { "txHash": "0xbbbb…", "paidAt": "2026-08-27" }
+    },
+    "volume-700": {
+      "0xca7d70aF5076FA55705F3285e3414620f157948C": { "txHash": "0xcccc…", "paidAt": "2026-08-27" }
+    }
+  }
+}</pre></div>
+
+<h2>4. Troubleshooting</h2>
+<table class="rules">
+  <tr><th>Situation</th><th>What to do</th></tr>
+  <tr><td>User says "I was paid but my card is still not green"</td><td>Check the address is in <code>payouts.json</code> under the <b>right challenge</b>, the commit has a green ✔, and 10 minutes have passed. Ask them to reload the page and reopen Account.</td></tr>
+  <tr><td>Commit shows a red ✘</td><td>The file is invalid. Common causes: comma after the last entry, missing quote, wrong challenge name (only <code>kyc-deposit</code> and <code>volume-700</code> exist), address not 42 characters. Fix and commit again.</td></tr>
+  <tr><td>Same address claims twice</td><td>The sheet ignores duplicate address + challenge pairs, so you'll only ever see one row per reward. Never pay twice.</td></tr>
+  <tr><td>"I can't edit the file on GitHub"</td><td>Only the 8 allow-listed org members can commit to <code>main</code>. Ask an admin to add you to the branch-protection push list (repo → Settings → Branches → main).</td></tr>
+  <tr><td>User is old but was paid anyway</td><td>A recorded payout always shows as paid, even for accounts outside the promo window — nothing to fix.</td></tr>
+</table>
+
+<p class="small">Frontend: the hub lives in <code>src/components/rewards-hub/</code>; rules in <code>src/hooks/useChallengeStatus.ts</code>; thresholds and the 24 Aug 2026 date in <code>src/appConstants.ts</code>. Note <code>volume-700</code> is a legacy id — the challenge is 8,000 contracts. The two URLs above are configured as <code>VITE_REWARDS_PAYOUTS_URL</code> and <code>VITE_REWARDS_CLAIM_WEB_APP_URL</code>.</p>
+
+</body>
+</html>
