@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31",
+  "updatedAt": "2026-09-01",
   "challenges": {
     "kyc-deposit": {
       "0xca7d70aF5076FA55705F3285e3414620f157948C": {
@@ -382,6 +382,26 @@
       "0x7734bd2b2f5610cd953e9b57848819f233daccd0": {
         "txHash": "https://basescan.org/tx/0xc114e61331dbfffd5df8c0ba1bc887897fe8eb0074e2add08b405d642d051f56",
         "paidAt": "2026-08-31"
+      },
+      "0xc9925027912475559b39e8145e4ea7a9f60649bf": {
+        "txHash": "https://basescan.org/tx/0x7f7eaca58db4f588746ab3d644bfc19681f6cf824dc201461f5b11e13bfe2275",
+        "paidAt": "2026-09-01"
+      },
+      "0xd5d29fa9e4a55caab52062de23666091b8ae8e95": {
+        "txHash": "https://basescan.org/tx/0xde5159ab9b464ceb5f4fe650cf63ea00e6f0fae474d06bfa3b5adab9cd1fedd0",
+        "paidAt": "2026-09-01"
+      },
+      "0xf6f746dbb1c612d612e772d8472323fe374d082b": {
+        "txHash": "https://basescan.org/tx/0x3a4e3d508ddb007b730dbbf51d0d670ecf0297c15bfc378ed413354e86271884",
+        "paidAt": "2026-09-01"
+      },
+      "0x060b4fc2bc142bfb387f113d46d13601c0de5952": {
+        "txHash": "https://basescan.org/tx/0x6ec9f9e2ef872ef74240488810d3efb8caaefd5c3871df5a297c46bb8fad4463",
+        "paidAt": "2026-09-01"
+      },
+      "0x1be32a234f70bed93d87f91da8e50844d35573a3": {
+        "txHash": "https://basescan.org/tx/0x377cba742901293b725de0978f508561e4aec79b4888b6c66df39a38ab720bea",
+        "paidAt": "2026-09-01"
       }
     },
     "volume-700": {
@@ -496,6 +516,14 @@
       "0x28534c0b421065fb2ea218b53524a04951994b5a": {
         "txHash": "https://basescan.org/tx/0xb4b2d3b1b3f23d0e5b1292b85666907134d44fd0d14614eda6416864e5bb6034",
         "paidAt": "2026-08-31"
+      },
+      "0xb7945454e7c86ee1af8f1c8d79f4be9345f28059": {
+        "txHash": "https://basescan.org/tx/0xe329051f9c6b0ad1c28d3ee2db2d9a1319bd3a187c4688d021bbc799569649b2",
+        "paidAt": "2026-09-01"
+      },
+      "0x483d5476171e0266057b992e83ea4f7d675a5545": {
+        "txHash": "https://basescan.org/tx/0xc07b40d74752a05224598454104c2b8ea6f60141db59ea23fe0ef445d76e7bfe",
+        "paidAt": "2026-09-01"
       }
     }
   }
