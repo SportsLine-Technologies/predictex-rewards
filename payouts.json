@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03",
+  "updatedAt": "2026-09-05",
   "challenges": {
     "kyc-deposit": {
       "0xca7d70aF5076FA55705F3285e3414620f157948C": {
@@ -1008,6 +1008,14 @@
       "0x3db4688d429e2f1d8c0cdff7034d4acde865bde4": {
         "txHash": "https://basescan.org/tx/0x2c6b5505a7b4eae0646801a0f7ba2ba73af284702d720a3549764a4b199eac34",
         "paidAt": "2026-09-03"
+      },
+      "0x542c6f6f7c8a3abf3baa59e31f43e1867baeac5f": {
+        "txHash": "https://basescan.org/tx/0x7d2c1a0577582013b025778f0c8f378317feb31d7365875be9528ef4b5321a7b",
+        "paidAt": "2026-09-05"
+      },
+      "0xec86d921d70e8c0ae662c66ca62a0d741db3c8a1": {
+        "txHash": "https://basescan.org/tx/0x57c78842589365d639785e6093d6db87e906f63c9cafbb74b54aac36890c09ce",
+        "paidAt": "2026-09-05"
       }
     }
   }
