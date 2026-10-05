@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-05",
   "challenges": {
     "kyc-deposit": {
       "0xca7d70aF5076FA55705F3285e3414620f157948C": {
@@ -1308,6 +1308,42 @@
       "0x64af0b11914e1af40963a72c146bc54875993d7e": {
         "txHash": "https://basescan.org/tx/0x46e729b49372cd172645c08fdd3e55cebd937095855de928c79afda24c2bc88f",
         "paidAt": "2026-10-02"
+      },
+      "0x6713c4f4b24410e722a939c676a3d999beaec918": {
+        "txHash": "https://basescan.org/tx/0x1779354ad58e9bda4ecf8524a906717a2e6c5b145eb95a5610f76672303830a9",
+        "paidAt": "2026-10-05"
+      },
+      "0xa048a92ca7e0334fb1929f16689796426da8de21": {
+        "txHash": "https://basescan.org/tx/0x277a0615d9e77771174d3f22606d21e079f25bd2ee7089e45d8a5e770ea94445",
+        "paidAt": "2026-10-05"
+      },
+      "0x500a9054a3ae1f028caa63361d456bc2bd4292ab": {
+        "txHash": "https://basescan.org/tx/0xae85b5d60dfc8e4179571f6788c5e5b7b83251955ff2061bc0796aa788901b87",
+        "paidAt": "2026-10-05"
+      },
+      "0xf873cee85506342c9cd38eb3f9a977617a097301": {
+        "txHash": "https://basescan.org/tx/0xa357c36793c96208cb556234635743e418a6b7a7b60adf74d38132397d31c315",
+        "paidAt": "2026-10-05"
+      },
+      "0x5417e76ac03fd62e8332c9cb312fe3a291ebb32f": {
+        "txHash": "https://basescan.org/tx/0x021208886c5a510b41ac7ccc0397547b03524185da42e32bcc138d3b86c50095",
+        "paidAt": "2026-10-05"
+      },
+      "0x6fb6f8e2b42f0a9e121486549315517923be932a": {
+        "txHash": "https://basescan.org/tx/0x80b1dead252b0f00e33407fead906c818839d73bc991d152bbb70fdc8a814b24",
+        "paidAt": "2026-10-05"
+      },
+      "0x5c5533a553665416c79d38e7b5e92c794c853a14": {
+        "txHash": "https://basescan.org/tx/0x85618cc3a8ceb1beb0999e48c123b7a9c44c8f4674b6597849c1380a97d4bd62",
+        "paidAt": "2026-10-05"
+      },
+      "0x7462a43cb28349f350372cd6ff63982908055f7d": {
+        "txHash": "https://basescan.org/tx/0x9ded9d7581bc6fdc0dc27816bcb9f957db823dca6fc5ab35832771afa8fdd774",
+        "paidAt": "2026-10-05"
+      },
+      "0x18625e63cbe44918fe9f9f0610d6d9dfc80fe202": {
+        "txHash": "https://basescan.org/tx/0xeb6a1d289be9d1201056da8ffa0f3f01f545885732108e205c3e29c3e2e6b77d",
+        "paidAt": "2026-10-05"
       }
     }
   }
