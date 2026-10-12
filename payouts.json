@@ -1408,6 +1408,14 @@
       "0xdba3ba6d00a6d0e5247c72d6ebc421814385f07d": {
         "txHash": "https://basescan.org/tx/0xf8294fe82743e338de355f5e7ad29cfb96f2d6a9e2f81f67e1f82b96df527218",
         "paidAt": "2026-10-12"
+      },
+      "0x9e8fae0213dfe9019e450602f4ba632ff5c44c56": {
+        "txHash": "https://basescan.org/tx/0xd0844cf6d497854c1325f7eea2461ce7b8363f52e0906fbcdc76bb5b82d21ad5",
+        "paidAt": "2026-10-12"
+      },
+      "0x7041555e3489f35c8f0e91844b5b47bae70cbc0f": {
+        "txHash": "https://basescan.org/tx/0x018db6693ef5cda0864e1fd838d8f7961ba553f9fdc45fb70432eb902331e59e",
+        "paidAt": "2026-10-12"
       }
     }
   }
