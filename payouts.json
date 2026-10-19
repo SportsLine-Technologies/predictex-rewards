@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-19",
   "challenges": {
     "kyc-deposit": {
       "0xca7d70aF5076FA55705F3285e3414620f157948C": {
@@ -1460,6 +1460,38 @@
       "0x60d769f698c9e59dc1445d4ddcdee01c43f281db": {
         "txHash": "https://basescan.org/tx/0xae01d2e4b546bd7224af11e66cc9f2fc2ddd86f8c61c44fd0809a19ec92ef677",
         "paidAt": "2026-10-17"
+      },
+      "0x9118f14cf4fc030acd27cc9c79fa96e13e3f5e3e": {
+        "txHash": "https://basescan.org/tx/0xc146697d2231d3600bf16085cb100eb4a1e772c968defdb4b7e69b0a20207579",
+        "paidAt": "2026-10-19"
+      },
+      "0x50df27e1f3a2b5eeb9f017ca0e45f9e5f682196a": {
+        "txHash": "https://basescan.org/tx/0x7f8b8ba4dce2f0ce0cd5afa0e2b356368c00a6206f6e6b7780aacd7393caf38c",
+        "paidAt": "2026-10-19"
+      },
+      "0x5d32acaf0e0000fec1d60e4b9f9aa497c5ec9fb1": {
+        "txHash": "https://basescan.org/tx/0xea0b0c6dfd3a7bcaba8169ce9f26daf6ea95c4b7cddeef6ed88f6ab59763d044",
+        "paidAt": "2026-10-19"
+      },
+      "0x89d3ff383e08d597d0b23a80b0ac8132a3024dc0": {
+        "txHash": "https://basescan.org/tx/0x8772f478e71a4a9d85e63df2d081f4d237ca20800ea9e666e4ce4c7c2c6a26ef",
+        "paidAt": "2026-10-19"
+      },
+      "0x7572b15a4361012d4de58f542a3667931642168b": {
+        "txHash": "https://basescan.org/tx/0x59bd74d4f421301242cee75b8c12b98447e7698df889525df544d5a49549a76b",
+        "paidAt": "2026-10-19"
+      },
+      "0x8128e94d76a456c793c36280fdaa54e9860cec3d": {
+        "txHash": "https://basescan.org/tx/0xdee8dd032cf4252cb06eb9eb70649789dbbeefac4052cf97913d72f1a6a8bbfb",
+        "paidAt": "2026-10-19"
+      },
+      "0xe0791995bf92b38a087031b8885333a3d895abab": {
+        "txHash": "https://basescan.org/tx/0xe2034cce426a414707d381d0146a254634452ab3d0b998f18002c96e0843043b",
+        "paidAt": "2026-10-19"
+      },
+      "0xc247305346468c68a4b0f8d117b2771e250f13cc": {
+        "txHash": "https://basescan.org/tx/0x36a61afc7d5fdf1ade443b9a1c997dfe46fd4123d1a3bd1a123d42047668f568",
+        "paidAt": "2026-10-19"
       }
     }
   }
