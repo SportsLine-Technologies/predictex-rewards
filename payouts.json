@@ -1572,6 +1572,10 @@
       "0xf55236b111f5422acfa3561a4d6f97a9b3409abd": {
         "txHash": "https://basescan.org/tx/0x1fb7db33b3f877a5f2a0296e169e7847c0727c915e66ed4c97dcf97de57351f1",
         "paidAt": "2026-10-26"
+      },
+      "0xece9bb5aa6a677956bd672dff01db0371e302cff": {
+        "txHash": "https://basescan.org/tx/0x37996c022a24aaee6b1d47a98191ceb2f136a96a7521c9d7c5b4d23a0c91ef05",
+        "paidAt": "2026-10-26"
       }
     }
   }
