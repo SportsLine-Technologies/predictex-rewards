@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05",
+  "updatedAt": "2026-11-09",
   "challenges": {
     "kyc-deposit": {
       "0xca7d70aF5076FA55705F3285e3414620f157948C": {
@@ -1708,6 +1708,54 @@
       "0x3f8066c4fb7ff2914ef2fb0d375e7edf8182d979": {
         "txHash": "https://basescan.org/tx/0xadefc3020323293ce1954068c2fe253c10ceb715d1532f41e8cf372151bc2981",
         "paidAt": "2026-11-05"
+      },
+      "0xa95c99156dba791f11ed5ac265b6830368fdd4b8": {
+        "txHash": "https://basescan.org/tx/0xd58fee2c93303b9c9a305e7adbfb8896a49a30203ba358287675c3077dccf99e",
+        "paidAt": "2026-11-09"
+      },
+      "0x460441484550c60f4343422e98138b8a4ea83d83": {
+        "txHash": "https://basescan.org/tx/0x85f13ffd14ec257445ea1d4530f997b2b68460ec0cfd216d571b39a0003eb7b7",
+        "paidAt": "2026-11-09"
+      },
+      "0xf65c61623e9b1ce660b3c0f9c57b9c782531eb85": {
+        "txHash": "https://basescan.org/tx/0x6abea05a530b306161b7b3fb8a3ff11a5317e0703796925613838c88a3b73a9d",
+        "paidAt": "2026-11-09"
+      },
+      "0x510b855799a7264a0173db1ed0271797e8c0fc70": {
+        "txHash": "https://basescan.org/tx/0x763eba32ac733951212c7ce1f12d8fd42cdcd8d45c13c8e0b6e7c4ddcc5d6241",
+        "paidAt": "2026-11-09"
+      },
+      "0x3c616ab76ab2895bdec75bd4398bec01a065c84a": {
+        "txHash": "https://basescan.org/tx/0x3f5efaf45cdfe34ed2614322baad8889e01bb1b75f6d00a3a7a9d5c8100df743",
+        "paidAt": "2026-11-09"
+      },
+      "0x9bd2d6bf2aa1ec3bd2377824ac6a473b1d156c8f": {
+        "txHash": "https://basescan.org/tx/0x9f9f3e35b3bd500ade8edd459addbc66d367aec2bdae9cf7176836c4d3044cfd",
+        "paidAt": "2026-11-09"
+      },
+      "0x7e16c8efbb6e520c21b35f52dbd393a4b03b71a8": {
+        "txHash": "https://basescan.org/tx/0x213d320fed6236c2797ec9fccf4e17a5d047499d07251cff33995b88c8ed02cb",
+        "paidAt": "2026-11-09"
+      },
+      "0xe6f57d49acd864ff9f7c8abb1ca5185372278180": {
+        "txHash": "https://basescan.org/tx/0xbc093393cb380b9efb0eeb091279ae4597a48793e9f888ce3f253933bef9eb8e",
+        "paidAt": "2026-11-09"
+      },
+      "0x196ad40a12397fa46561017dda9608791a8ee620": {
+        "txHash": "https://basescan.org/tx/0x7b9f0a1e9cf3a5dd385abe3a76e84f6b76e5c1d7d10a7e2441217dd8a806c541",
+        "paidAt": "2026-11-09"
+      },
+      "0x274281d6ec93014e96e6fb584aea0ba06e6a97d5": {
+        "txHash": "https://basescan.org/tx/0x8bfe0f75f545ba2f166528b9e36da63ff69e7ad15ed101bcb4de6688027a9a0d",
+        "paidAt": "2026-11-09"
+      },
+      "0x2d6815ac081cf495712b421113c927bae1f8d03a": {
+        "txHash": "https://basescan.org/tx/0xb626692ec94ba0c5055f148171852a0876e512d05fe9a6b1add52a098d13ee9b",
+        "paidAt": "2026-11-09"
+      },
+      "0x6e9a95837c3aa5a09c850eda19b8bc814570ea20": {
+        "txHash": "https://basescan.org/tx/0x682731c7b4da41c8d693c83b89f9e4975dacfe55e98f7a170fd29e7db1375156",
+        "paidAt": "2026-11-09"
       }
     }
   }
